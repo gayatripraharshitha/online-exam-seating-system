@@ -382,20 +382,20 @@ This file is excluded from version control through `.gitignore` because it may c
 Suppose the authority creates the following examination centers:
 
     1. Chennai
-    2. Bangalore
+    2. Mumbai
     3. Kolkata
-    4. Dubai
-    5. Nagaland
+    4. Hyderabad
+    5. Delhi
 
 A student submits:
 
-    First Preference: Bangalore
+    First Preference: Hyderabad
     Second Preference: Chennai
-    Third Preference: Dubai
+    Third Preference: Mumbai
 
 The system first attempts to allocate the student to Bangalore.
 
-If Bangalore has no remaining usable capacity, the system checks Chennai. If Chennai is also unavailable, it checks Dubai.
+If Hyderabad has no remaining usable capacity, the system checks Chennai. If Chennai is also unavailable, it checks Mumbai.
 
 If all three preferred centers are unavailable, the system searches the remaining centers for usable capacity.
 

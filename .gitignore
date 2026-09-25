@@ -1,0 +1,14 @@
+# Compiled C executable
+exam.exe
+a.exe
+*.exe
+
+# Exam archive / generated data
+exam_archive.txt
+
+# Temporary files
+*.tmp
+*.log
+
+# VS Code
+.vscode/
